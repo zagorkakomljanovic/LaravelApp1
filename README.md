@@ -4,7 +4,7 @@
 
 - Make sure you have docker and docker-compose installed. 
 - clone this repo: ` git clone https://github.com/SpiralOutDotEu/dockervel.git`
-- `git checkout bulider`
+- `git checkout builder`
 - git clone my www folder in your dockervel/www with : git clone https://github.com/zagorkakomljanovic/LaravelApp1.git
 - `cd dockervel`
 -`sudo su `
