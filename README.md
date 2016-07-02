@@ -5,11 +5,11 @@
 - Make sure you have [docker and docker-compose installed](http://www.spiralout.eu/2015/12/docker-installation-in-linux-mint-and.html) 
 - clone this repo: ` git clone https://github.com/SpiralOutDotEu/dockervel.git`
 - `git checkout builder`
-- git clone my www folder in your dockervel/www with : git clone https://github.com/zagorkakomljanovic/LaravelApp1.git
+- git clone my  repo  in your dockervel folder with : git clone https://github.com/zagorkakomljanovic/LaravelApp1.git
 - rename LaravelApp1 to www
 - `cd dockervel`
--`sudo su `
--` . ./aliases.sh `       to use aliases (look in aliases.sh )
+- `sudo su `
+- ` . ./aliases.sh `       to use aliases (look in aliases.sh )
 - `dcomposer install `       to recreate dependencies
 - `dpermit`
 - `dup`        to run entire package
