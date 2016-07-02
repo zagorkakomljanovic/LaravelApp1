@@ -20,6 +20,8 @@ class User1Controller extends Controller
        		$user= new User1;
 	    	$user->name = $request->name;
 	    	$user->email =  $request->email;
+            $user->phone_number =  $request->phone_number;
+
 	    	$user->save();
 
 	    return redirect('/thankyou');

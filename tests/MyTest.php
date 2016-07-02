@@ -39,6 +39,7 @@ class MyTest extends TestCase
         $this->visit('/')
          ->type('Taylor', 'name')
          ->type('taylor@talor.com', 'email')         
+         ->type('654987', 'phone_number')         
          ->press('Register')
          ->seePageIs('/thankyou');
     }
